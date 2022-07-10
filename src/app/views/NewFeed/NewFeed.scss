@@ -1,0 +1,36 @@
+$main-color: #36df36;
+$main-line: #d0d0d0;
+$main-text: #4c4c4c;
+
+
+.nf-row_custom {
+    width: 60%;
+    margin: 0 auto;
+    .nf-title {
+        margin: 25px 0;
+        height: 42px;
+        justify-items: center;
+        font-family: "BeVietnamProMedium";
+        .nf-title_left {
+            margin-top: 8px;
+            float: left;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .nf-title_right {
+            float: right;
+            border-radius: 20px;
+            border: 0.5px solid $main-text;
+            background-color: $main-color;
+            color: #fff;
+            .card-text{
+                max-height: 72px;
+                -webkit-box-orient: vertical;
+                display: -webkit-box;
+                overflow: hidden !important;
+                text-overflow: ellipsis;
+                -webkit-line-clamp: 3;
+            }
+        }
+    }
+}

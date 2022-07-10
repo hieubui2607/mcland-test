@@ -1,0 +1,25 @@
+$main-color: #36df36;
+$main-line: #d0d0d0;
+
+.r-sell:checked ~ .btn-custom_l{
+    background-color: $main-color;
+    color: #fff;
+}
+
+.r-rent:checked ~ .btn-custom_r{
+    background-color: $main-color;
+    color: #fff;
+}
+.title-input{
+    padding-right: 30px;
+}
+.btn-custom_l{
+    width: 30%;
+    border: 1px solid $main-color;
+    border-radius: 6px 0 0 6px;
+}
+.btn-custom_r{
+    width: 30%;
+    border: 1px solid $main-color;
+    border-radius: 0 6px 6px 0;
+}

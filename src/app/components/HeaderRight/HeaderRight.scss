@@ -1,0 +1,16 @@
+.user_right__header {
+    list-style-type: none;
+    margin: 15px 50px;
+    cursor: pointer;
+    padding: 2px 15px;
+    border-radius: 25px;
+    background-color: #e4e6eb;
+    &-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+.s-dropdown {
+    width: 280px;
+}

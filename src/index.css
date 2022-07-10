@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "BeVietnamPro";
+  src: url(./app/assets/fonts/BeVietNamPro/BeVietnamPro-Light.ttf)format("truetype");
+}
+
+@font-face {
+  font-family: "BeVietnamProMedium";
+  src: url(./app/assets/fonts/BeVietNamPro/BeVietnamPro-Medium.ttf)format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "BeVietnamPro", 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

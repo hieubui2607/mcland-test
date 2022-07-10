@@ -1,0 +1,74 @@
+$main-color: #36df36;
+$text-color:#4c4c4c;
+// Desktop & laptop
+@media only screen and (min-width: 64em) {
+    .row-page {
+        height: auto;
+        display: flex;
+        list-style-type: none;
+        margin: 0px auto;
+        padding: 0px 10px;
+        li { 
+            margin: 16px 15px;
+            font-weight: 700;
+            a {
+                text-decoration: none;
+                color: $text-color;
+                p {
+                    margin: 0px;
+                }
+            }
+        }
+        .active p { 
+            font-weight: 700;
+            border-bottom: 3px solid $main-color;
+            a {
+                text-decoration: none;
+                color: $text-color;
+            }
+        }
+    }
+}
+// Tablet
+@media only screen and (max-width: 63.9375em) and (min-width: 46.125em) {
+    .row-page {
+        height: auto;
+        list-style-type: none;
+        margin: 29px auto;
+        padding: 0px 10px;
+        li { 
+            margin: 0 15px;
+            font-weight: 700;
+            border-bottom: 3px solid $main-color;
+            padding: 8px 0;
+            font-size: 1.2rem;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+//Mobile
+@media only screen and (max-width: 46.1875em) {
+    .row-page {
+        height: auto;
+        list-style-type: none;
+        margin: 29px auto;
+        padding: 0px 10px;
+        li { 
+            margin: 0 15px;
+            font-weight: 700;
+            border-bottom: 3px solid $main-color;
+            padding: 8px 0;
+            font-size: 1.2rem;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
